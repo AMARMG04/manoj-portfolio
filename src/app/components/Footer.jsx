@@ -13,7 +13,7 @@ const Footer = () => {
     },
   ];
   return (
-    <div className="h-20 w-full bg-[#0b0b0b] dark:bg-neutral-800 px-40">
+    <div className="h-fit w-full bg-[#0b0b0b] dark:bg-neutral-800 p-10 lg:px-40">
         <div className="flex flex-row gap-10 justify-end items-center h-full text-white">
           {Links.map((link, index) => (
             <Link href={link.link} key={index} target="_blank">
