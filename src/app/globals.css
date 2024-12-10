@@ -2,20 +2,62 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+    font-family: "Anderson_Regular";
+    src: local("AndersonGroteskRegular"),
+    url("./fonts/AndersonGroteskRegular.otf") format("opentype");
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+    font-family: "Anderson_Bold";
+    src: local("AndersonGroteskBold"),
+    url("./fonts/AndersonGroteskBold.otf") format("opentype");
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@font-face {
+    font-family: "Thin";
+    src: local("NohemiThin"),
+    url("./fonts/Nohemi-Thin.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Light";
+    src: local("NohemiLight"),
+    url("./fonts/Nohemi-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Regular";
+    src: local("NohemiRegular"),
+    url("./fonts/Nohemi-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Medium";
+    src: local("NohemiMedium"),
+    url("./fonts/Nohemi-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "SemiBold";
+    src: local("NohemiSemiBold"),
+    url("./fonts/Nohemi-Semibold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Bold";
+    src: local("NohemiBold"),
+    url("./fonts/Nohemi-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "ExtraBold";
+    src: local("NohemiExtraBold"),
+    url("./fonts/Nohemi-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Abster";
+    src: local("Abster"),
+    url("./fonts/Abster.otf") format("opentype");
 }

@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import { Inter_Tight, DM_Sans, Plus_Jakarta_Sans } from 'next/font/google'
 import "./globals.css";
+import { Providers } from "./providers";
+import Navbar from "./components/Navbar";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -11,6 +14,16 @@ const geistMono = localFont({
   src: "./fonts/GeistMonoVF.woff",
   variable: "--font-geist-mono",
   weight: "100 900",
+});
+
+const dmSans = Plus_Jakarta_Sans({
+  subsets: ['latin'],
+  variable: "--font-dm_sans",
+});
+
+const inter = Inter_Tight({
+  subsets: ['latin'],
+  variable: "--font-inter",
 });
 
 export const metadata: Metadata = {
@@ -24,11 +37,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${inter.className} ${dmSans.variable} antialiased text-black bg-[#00000] dark:text-white dark:bg-[#0b0b0b]`}
       >
-        {children}
+        <Providers>
+          <Navbar></Navbar>
+          {children}
+        </Providers>
       </body>
     </html>
   );
