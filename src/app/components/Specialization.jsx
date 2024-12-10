@@ -48,7 +48,7 @@ const Specialization = () => {
                 height={1000}
                 className="w-20 h-20"
               />
-              <h1 className="text-2xl font-nohemi_sb">
+              <h1 className="text-2xl font-semibold">
                 {solution.title}
               </h1>
               <p className="text-md font-dm_sans dark:text-white font-semibold">
