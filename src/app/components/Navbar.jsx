@@ -22,7 +22,6 @@ const Navbar = () => {
     <>
       <div className="flex justify-between items-center mt-16 mx-40">
         <h2 className="text-3xl font-abster"><Link href='/'>M</Link></h2>
-
         <div className="flex items-center gap-10">
           {Navlinks.map((link) => (
             <a href={`${link.href}`} key={link.href} className="font-nohemi_m text-lg">
