@@ -47,7 +47,8 @@ const Navbar = () => {
           ))}
           <ThemeSwitch></ThemeSwitch>
         </div>
-        <div className="flex lg:hidden">
+        <div className="flex gap-8 items-center lg:hidden">
+        <ThemeSwitch></ThemeSwitch>
         <CgMenu size="2em" onClick={toggleSelectMenu}/>
           {selectMenu && (
             <div
@@ -75,7 +76,7 @@ const Navbar = () => {
                       {link.label}
                     </Link>
                   ))}
-                  <ThemeSwitch></ThemeSwitch>
+                  
                 </div>
               </div>
             </div>

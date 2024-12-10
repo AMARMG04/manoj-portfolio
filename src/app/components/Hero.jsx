@@ -13,7 +13,7 @@ const Hero = () => {
             height={2000}
             className="w-[100px] lg:w-40 lg:h-40 rounded-full object-cover ml-20 lg:ml-32"
           />
-          <h1 className="ml-[70px] lg:ml-32 text-[18px] lg:text-[24px] font-nohemi_m bg-gradient-to-r from-slate-400 to-cyan-900 text-transparent bg-clip-text">Software Developer</h1>
+          <h1 className="ml-[73px] lg:ml-32 text-[18px] lg:text-[24px] font-nohemi_m bg-gradient-to-r from-slate-400 to-cyan-900 text-transparent bg-clip-text">Software Developer</h1>
         </div>
         <div className="mt-4">
           <p className="text-stone-300 text-xl font-anderson_r">I AM</p>
