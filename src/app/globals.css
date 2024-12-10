@@ -39,7 +39,7 @@
 }
 
 @font-face {
-    font-family: "SemiBold";
+    font-family: "NohemiSemiBold";
     src: local("NohemiSemiBold"),
     url("/fonts/Nohemi-Semibold.ttf") format("truetype");
 }
