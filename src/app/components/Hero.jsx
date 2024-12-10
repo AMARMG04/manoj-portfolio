@@ -19,6 +19,7 @@ const Hero = () => {
           <p className="text-stone-300 text-xl font-anderson_r">I AM</p>
           <p className=" text-4xl font-anderson_b bg-gradient-to-r from-zinc-100 to-cyan-700 text-transparent bg-clip-text">MANOJ</p>
         </div>
+        
       </div>
       <div className="text-[58px] max-w-[1200px] text-center leading-tight">
         <p className="font-nohemi_sb bg-gradient-to-r from-neutral-400 dark:from-neutral-100 to-black dark:to-stone-700 text-transparent bg-clip-text">I develop premium websites using the power of modern web technologies.</p>
