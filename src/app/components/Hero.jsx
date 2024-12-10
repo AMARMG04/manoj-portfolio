@@ -22,7 +22,7 @@ const Hero = () => {
         
       </div>
       <div className="text-[58px] max-w-[1200px] text-center leading-tight">
-        <p className="font-nohemi_sb bg-gradient-to-r from-neutral-400 dark:from-neutral-100 to-black dark:to-stone-700 text-transparent bg-clip-text">I develop premium websites using the power of modern web technologies.</p>
+        <p className="font-nohemi_m bg-gradient-to-r from-neutral-400 dark:from-neutral-100 to-black dark:to-stone-700 text-transparent bg-clip-text">I develop premium websites using the power of modern web technologies.</p>
       </div>
     </div>
   );
